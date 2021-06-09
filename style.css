@@ -15,14 +15,19 @@ html,body{
         height: 320px;
         display: flex;
         flex-direction: row;
-        justify-content:left;
+        justify-content:flex-end;
         align-items:flex-end;
+        vertical-align: bottom;
         font-size: 18px;
         font-weight: bold;
     }
-    .st{
+    .photos .sn .ph1{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .photos .st{
         font-size: 14px;
-        font-weight:normal;
+        font-weight: normal;
     }
     .main .headings{
         margin: 1px;
