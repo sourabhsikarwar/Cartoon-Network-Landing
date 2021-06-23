@@ -34,16 +34,23 @@ html,body{
     }
     .head .logo img{
         width: 120px;
-        margin: 0 auto 0 40px;
+        margin: auto;
     }
     header .head{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: auto;
     }
     header .head .nc{
         font-size: 14px;
+        margin: 5px;
+        flex-wrap: nowrap;
+    }
+    header .head .nav{
+        margin: auto;
+        flex-wrap: nowrap;
     }
     /* .head .menu img{
         width: 15px;
