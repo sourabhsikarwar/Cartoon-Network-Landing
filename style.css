@@ -99,7 +99,7 @@ html,body{
     justify-content: flex-start;
     align-items: center;
     font-size: 20px;
-    max-width: 1100px;
+    
     background-color: white;
     padding: 10px 30px 10px 30px;
 }
@@ -108,7 +108,7 @@ html,body{
     flex-direction: column;
     justify-content: flex-start;
     padding: 30px;
-    
+
     width: 100%;
     background-color: rgb(0, 0, 0);
 }
@@ -130,7 +130,7 @@ html,body{
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    /* margin: auto; */
+    margin: auto;
     justify-content: center;
     width: 100%;
 }
@@ -323,7 +323,6 @@ p{
     background-color: rgb(32, 32, 32);
     padding: 50px;
     display: flex;
-    max-width: 1100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -349,9 +348,6 @@ p{
     color: rgb(138, 138, 138);
     font-size: 12px;
     margin: 10px auto 25px auto;
-}
-footer{
-    max-width: 1100px;
 }
 .corus{
     margin: 10px;
