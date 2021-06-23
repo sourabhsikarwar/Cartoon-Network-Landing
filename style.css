@@ -36,12 +36,21 @@ html,body{
         width: 120px;
         margin: 0 auto 0 40px;
     }
-    .head .menu img{
+    header .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header .head .nc{
+        font-size: 14px;
+    }
+    /* .head .menu img{
         width: 15px;
     }
     .head .mn{
         font-size: 15px;
-    }
+    } */
     .main .con p{
         padding: 15px 15px 15px 8px;
     }
@@ -59,7 +68,20 @@ html,body{
 }
 .logo img{
     width: 150px;
-    margin: 0 auto 0 30vw;
+}
+.head .nav{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+.nc{
+    margin: 10px;
+    font-size: 18px;
+}
+.nc:hover{
+    border-bottom: rgb(139, 212, 255) 3px solid;
 }
 .head{
     display: flex;
@@ -77,6 +99,9 @@ html,body{
     padding: 30px;
     width: 100%;
     background-color: rgb(0, 0, 0);
+}
+.container{
+    max-width: 1100px;
 }
 
 .headings{
